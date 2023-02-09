@@ -1,0 +1,10 @@
+Everything in JS happens inside an Execution Context
+variable environment             Thread of Execution    
+Memory                           Code
+key : value                      .________
+a : 10                           .________
+
+
+
+JS is a synchronous single-threaded Language
+
