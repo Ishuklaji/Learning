@@ -13,7 +13,3 @@ function b() {
     console.log(x)
 }
 
-function c() {
-    var x = 1000
-    console.log(x)
-}
