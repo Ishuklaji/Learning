@@ -13,3 +13,7 @@ function b() {
     console.log(x)
 }
 
+function c() {
+    var x = 100
+    console.log(x)
+}
