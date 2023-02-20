@@ -1,4 +1,4 @@
-getname()     // Hoisted
+getname()     // Hoisted function
 console.log(x)
 console.log(getname)
 
