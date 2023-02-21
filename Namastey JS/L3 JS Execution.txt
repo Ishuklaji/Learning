@@ -13,4 +13,4 @@ square : {...}
 square2 : undefined                                             
 square4 : undefined                              
 
-callstack maintains the order of execution of execution contexts
+call stack maintains the order of execution of execution contexts
