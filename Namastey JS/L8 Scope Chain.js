@@ -1,3 +1,4 @@
+// lexical scoping
 function a() {
     c()
     function c() {
