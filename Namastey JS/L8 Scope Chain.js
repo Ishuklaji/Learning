@@ -1,4 +1,4 @@
-// lexical scoping
+// lexical scope
 function a() {
     c()
     function c() {
