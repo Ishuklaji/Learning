@@ -23,4 +23,3 @@ c()
 // First class fn
 // the ability to use a function as value (arguments) inside another function is known as 1st class fn
 // first class citizens
-
