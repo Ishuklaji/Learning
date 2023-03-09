@@ -31,6 +31,7 @@ const op2 = a.reduce((acc, curr) => {
 
 console.log(op2);
 
+// finding max number in array 
 const max = a.reduce((acc, curr) => {
     if (curr > max) {
         max = curr
