@@ -19,3 +19,4 @@ console.log(user);
 user.then(function (data) {
     console.log(data);
 })
+
