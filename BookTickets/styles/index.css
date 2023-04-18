@@ -1,0 +1,57 @@
+/* Index Page Styling */
+
+body {
+  background-image: url("https://inc42.com/wp-content/uploads/2021/06/F4-Feature-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  overflow-y: hidden;
+}
+
+#loginContainer {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  width: 37%;
+  margin: auto;
+  margin-top: 205px;
+  padding: 15px;
+  box-shadow: rgba(16, 11, 46, 0.15) 0px 48px 100px 0px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+#head,
+#loginContainer > h4 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  padding: 22px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(66, 65, 65, 0.473);
+}
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(80, 190, 233);
+}
+
+button:hover {
+  background-color: rgb(87, 87, 218);
+  color: white;
+}
+
+img {
+  display: block;
+  width: 34%;
+  margin: auto;
+}

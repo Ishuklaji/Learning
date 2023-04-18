@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD PAYMENT</title>
+    <link rel="stylesheet" href="../styles/payment.css">
+</head>
+
+<body>
+    <div id="pay">
+        <form id="card">
+            <h1> CARD DETAILS</h1>
+            <label>Card Holder's Name </label>
+            <input id="name" type="text" placeholder="Card Holder Name" />
+            <label>Card Number:</label>
+            <input id="num" type="number" data-mask="0000 0000 0000 0000" placeholder="Card Number"
+                pattern="[000] [000] [000] [000]">
+            <div class="f-row">
+                <div class="f-group">
+                    <label id="label1">Expiry date:</label>
+                    <input id="date" type="text" name="expiry-date" placeholder="00 / 0000">
+                </div>
+                <div class="f-group">
+                    <label id="label2">CVV</label><br>
+                    <input id="cvv" type="text" data-mask="000" placeholder="000">
+                </div>
+            </div>
+            <button type="submit"><a href="otp.html"> PAY NOW</a> </button>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
+<script type="module" src="../scripts/payment.js"></script>

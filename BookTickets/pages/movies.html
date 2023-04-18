@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="../styles/movies.css" />
+  </head>
+
+  <body>
+    <div id="sort-filter">
+      <!--Sorting -->
+      <select id="sortrating">
+        <option value="">Sort by IMDB</option>
+        <option value="htl">High to Low</option>
+        <option value="lth">Low to High</option>
+      </select>
+
+      <!-- Filtering -->
+      <select id="filtergenre">
+        <option value="">Filter by Genre</option>
+        <option value="Action">Action</option>
+        <option value="Thriller">Thriller</option>
+        <option value="Comedy">Comedy</option>
+      </select>
+    </div>
+    <br />
+    <div id="movies">
+      <!--Show list of movies here-->
+    </div>
+  </body>
+</html>
+<script type="module" src="../scripts/movies.js"></script>

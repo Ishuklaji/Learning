@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/movie-ticket-minimalist-projector-powerpoint-background_a8e0073c06__960_540.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+img{
+    width: 40%;
+}
+
+.bookticket{
+    color:blue;
+    text-decoration:underline;
+}
+
+.bookticket:hover{
+    cursor: pointer;
+}

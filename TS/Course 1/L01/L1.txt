@@ -1,0 +1,10 @@
+It is an enhanced version of JS aka superset of JS
+- TS can't run on the browser directly 
+- TS compiler convert the code from TS to JS
+
+             TS BENEFITS
+- Check err on compile time
+- Add type like string , number , bool etc
+- can add Object Oriented way with TS
+- code is well managed
+
